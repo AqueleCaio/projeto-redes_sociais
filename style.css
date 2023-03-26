@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(imagens/fundo-madeira.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    position: absolute;
+    left: 94%;
+    padding-top: 10px;
+}
+
+nav > a img{
+    display: block;
+    border-radius: 200px;
+    block-size: 65px;
+    margin: 10px 10px 20px 0px;
+    box-shadow: 1px 7px 6px 0px black;
+}
+
+nav > a img:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+nav > a img#home:hover{
+    border: 2px solid gray;
+}
+
+nav > a img#youtube:hover{
+    border: 2px solid red;
+}
+
+nav > a img#github:hover{
+    border: 2px solid green;
+}
+
+nav > a img#instagram:hover{
+    border: 2px solid rgb(255, 0, 255);
+}
+
+nav > a img#twitter:hover{
+    border: 2px solid lightblue;
+}
+
+nav > a img#facebook:hover{
+    border: 2px solid rgb(69, 69, 216);
+}
+
+#celular{
+    background: rgba(0, 0, 0, 0) url(imagens/frame-iphone.png) no-repeat center;
+    background-size: 311px 627px;
+
+    width: 311px;
+    height: 627px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#tela_inicial{
+    border-radius: 5px;
+
+    height: 480px;
+    width: 268px;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
